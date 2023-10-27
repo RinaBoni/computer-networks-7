@@ -1,0 +1,847 @@
+<mxfile host="app.diagrams.net" modified="2023-10-27T09:08:47.965Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0 (Edition Yx GX)" etag="-39TzEx12iFe_dZdW2OB" version="22.0.8" type="github">
+  <diagram name="Страница — 1" id="o2SPp-yNBWwZaUPnN2w4">
+    <mxGraphModel dx="483" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-5" value="" style="points=[[0.13,0.02,0],[0.5,0,0],[0.87,0.02,0],[0.885,0.4,0],[0.985,0.985,0],[0.5,1,0],[0.015,0.985,0],[0.115,0.4,0]];verticalLabelPosition=bottom;sketch=0;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.laptop;fillColor=#005073;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="250" width="50" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-8" value="серая адресация RFC 1918&lt;br&gt;10.0.0.0/8&lt;br&gt;172.16.0.0/12&lt;br&gt;192.168.0.0/16" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="80" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-9" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;network address translation(NAT) &lt;br&gt;RFC 1517, 1518, 1519&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="72.94" width="350" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-12" value="A" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-13" value="S 192.168.2.1&lt;br&gt;D 1.1.1.2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="185" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-15" value="" style="sketch=0;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0],[0.145,0.145,0],[0.8555,0.145,0],[0.855,0.8555,0],[0.145,0.855,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=router;fillColor=#FAFAFA;strokeColor=#005073;" vertex="1" parent="1">
+          <mxGeometry x="180" y="230" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-16" value="192.168.2.2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="265" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-17" value="" style="points=[[0.13,0.02,0],[0.5,0,0],[0.87,0.02,0],[0.885,0.4,0],[0.985,0.985,0],[0.5,1,0],[0.015,0.985,0],[0.115,0.4,0]];verticalLabelPosition=bottom;sketch=0;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.laptop;fillColor=#005073;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="357.5" y="265" width="50" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-19" value="B" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="327.5" y="315" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-20" value="S 1.1.1.4&lt;br&gt;D 1.1.1.2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="195" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-21" value="1.1.1.3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-22" value="1.1.1.2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="357.5" y="235" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="d2_0nBsn57_cL_QnxqTh-5" target="d2_0nBsn57_cL_QnxqTh-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.115;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="d2_0nBsn57_cL_QnxqTh-15" target="d2_0nBsn57_cL_QnxqTh-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-27" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.iot_things_icons.icon34;" vertex="1" parent="1">
+          <mxGeometry x="104.29000000000002" y="230" width="35.71" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-29" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.iot_things_icons.icon34;" vertex="1" parent="1">
+          <mxGeometry x="254.29" y="225" width="35.71" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-31" value="порт 8801" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="175" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-32" value="приложение работает на порте 1234" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="327.5" y="220" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-33" value="порт 1234" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="123.75" y="195" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-34" value="порт 5501" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="265.71000000000004" y="185" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-35" value="порт 1234" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="265.71000000000004" y="205" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-37" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Clone NAT - внутренний адрес проецируется на внешний адрес. любой пакет посланный с внутреннего адреса будет послан через натирование. любой пакет с внешнего хоста, посланный на адрес натирования будет направлен на внутренний адрес&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="360" width="630" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-38" value="" style="points=[[0.13,0.02,0],[0.5,0,0],[0.87,0.02,0],[0.885,0.4,0],[0.985,0.985,0],[0.5,1,0],[0.015,0.985,0],[0.115,0.4,0]];verticalLabelPosition=bottom;sketch=0;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.laptop;fillColor=#005073;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="450" width="50" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-39" value="" style="sketch=0;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0],[0.145,0.145,0],[0.8555,0.145,0],[0.855,0.8555,0],[0.145,0.855,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=router;fillColor=#FAFAFA;strokeColor=#005073;" vertex="1" parent="1">
+          <mxGeometry x="210" y="435" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-40" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="485" as="sourcePoint" />
+            <mxPoint x="30" y="901.6666666666666" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-41" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="234.58000000000007" y="485" as="sourcePoint" />
+            <mxPoint x="234.58000000000007" y="901.6666666666666" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-42" value="private network" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="5" y="400" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-43" value="public network" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="400" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-44" value="" style="points=[[0.13,0.02,0],[0.5,0,0],[0.87,0.02,0],[0.885,0.4,0],[0.985,0.985,0],[0.5,1,0],[0.015,0.985,0],[0.115,0.4,0]];verticalLabelPosition=bottom;sketch=0;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.laptop;fillColor=#005073;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="375.71" y="435" width="50" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-45" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400.41999999999996" y="470" as="sourcePoint" />
+            <mxPoint x="400.41999999999996" y="886.6666666666666" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-46" value="" style="points=[[0.13,0.02,0],[0.5,0,0],[0.87,0.02,0],[0.885,0.4,0],[0.985,0.985,0],[0.5,1,0],[0.015,0.985,0],[0.115,0.4,0]];verticalLabelPosition=bottom;sketch=0;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.laptop;fillColor=#005073;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="550" y="435" width="50" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-47" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="470" as="sourcePoint" />
+            <mxPoint x="570" y="886.6666666666666" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-48" value="192.168.0.2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="485" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-49" value="192.168.0.1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="480" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-50" value="1.1.1.2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="255" y="480" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-51" value="1.1.1.3.0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="407.5" y="470" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-52" value="1.1.1.5.5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="590" y="470" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-53" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.iot_things_icons.icon34;" vertex="1" parent="1">
+          <mxGeometry x="94.29000000000002" y="550" width="35.71" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-54" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;S 192.168.0.2:2210&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;D 1.1.1.3.0:1234&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="520" width="114.11" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-55" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="580" as="sourcePoint" />
+            <mxPoint x="240" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-56" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.iot_things_icons.icon34;" vertex="1" parent="1">
+          <mxGeometry x="294.29" y="550" width="35.71" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-57" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;S 1.1.1.2:8801&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;D 1.1.1.3.0:1234&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="520" width="114.11" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-58" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="580" as="sourcePoint" />
+            <mxPoint x="400" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-59" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="680" as="sourcePoint" />
+            <mxPoint x="230" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-60" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.iot_things_icons.icon34;" vertex="1" parent="1">
+          <mxGeometry x="292.23" y="650" width="35.71" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-61" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;S 1.1.1.3.0:1234&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;D 1.1.1.2:8801&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="257.94" y="620" width="114.11" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-62" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="680" as="sourcePoint" />
+            <mxPoint x="30" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-63" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.iot_things_icons.icon34;" vertex="1" parent="1">
+          <mxGeometry x="112.23000000000002" y="644.17" width="35.71" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-64" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;S 1.1.1.3.0:1234&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;D 192.168.0.2:2210&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="77.94" y="614.17" width="114.11" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-66" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="756" as="sourcePoint" />
+            <mxPoint x="230" y="756" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-67" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.iot_things_icons.icon34;" vertex="1" parent="1">
+          <mxGeometry x="289.73" y="725.83" width="35.71" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-68" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;S 1.1.1.3.0:4321&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;D 1.1.1.2:8801&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="255.44" y="695.83" width="114.11" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-69" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="756" as="sourcePoint" />
+            <mxPoint x="30" y="756" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-70" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.iot_things_icons.icon34;" vertex="1" parent="1">
+          <mxGeometry x="109.73000000000002" y="720" width="35.71" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-71" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;S 1.1.1.3.0:4321&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;D 192.168.0.2:2210&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="75.44" y="690" width="114.11" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-72" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="567.5" y="830" as="sourcePoint" />
+            <mxPoint x="230" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-73" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.iot_things_icons.icon34;" vertex="1" parent="1">
+          <mxGeometry x="390.29" y="800" width="35.71" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-74" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;S 1.1.1.3.0:1234&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;D 1.1.1.2:8801&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="356" y="770" width="114.11" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-75" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="232.5" y="830.0000000000001" as="sourcePoint" />
+            <mxPoint x="33" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-76" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.iot_things_icons.icon34;" vertex="1" parent="1">
+          <mxGeometry x="114.29000000000002" y="800" width="35.71" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-77" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;S 1.1.1.5.5:1234&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;D 192.168.0.2:2210&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="770" width="114.11" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-78" value="&lt;div style=&quot;text-align: justify;&quot;&gt;Address Restricted&amp;nbsp;Clone NAT&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;Внутренний адрес проецируется на внешний адрес натирующего устройства. Любой пакет посланный с внутреннего адреса будет послан через натирующего устройства. Пакет с любого порта внешнего хоста, посланный на адрес натирующего устройства будет отправлен на внутренний адрес только в том случае, если внутренний адрес предварительно посылал пакет на этот внешний хост.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1050" width="550" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-79" value="" style="points=[[0.13,0.02,0],[0.5,0,0],[0.87,0.02,0],[0.885,0.4,0],[0.985,0.985,0],[0.5,1,0],[0.015,0.985,0],[0.115,0.4,0]];verticalLabelPosition=bottom;sketch=0;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.laptop;fillColor=#005073;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1170" width="50" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-80" value="" style="sketch=0;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0],[0.145,0.145,0],[0.8555,0.145,0],[0.855,0.8555,0],[0.145,0.855,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=router;fillColor=#FAFAFA;strokeColor=#005073;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1155" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-81" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="1205" as="sourcePoint" />
+            <mxPoint x="30" y="1800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-82" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="234.58000000000007" y="1205" as="sourcePoint" />
+            <mxPoint x="230" y="1800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-83" value="private network" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="4.29" y="1125" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-84" value="public network" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1120" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-85" value="" style="points=[[0.13,0.02,0],[0.5,0,0],[0.87,0.02,0],[0.885,0.4,0],[0.985,0.985,0],[0.5,1,0],[0.015,0.985,0],[0.115,0.4,0]];verticalLabelPosition=bottom;sketch=0;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.laptop;fillColor=#005073;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="375.71" y="1155" width="50" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-86" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400.41999999999996" y="1190" as="sourcePoint" />
+            <mxPoint x="400" y="1800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-87" value="" style="points=[[0.13,0.02,0],[0.5,0,0],[0.87,0.02,0],[0.885,0.4,0],[0.985,0.985,0],[0.5,1,0],[0.015,0.985,0],[0.115,0.4,0]];verticalLabelPosition=bottom;sketch=0;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.laptop;fillColor=#005073;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1155" width="50" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-88" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="1190" as="sourcePoint" />
+            <mxPoint x="570" y="1800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-89" value="192.168.0.2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1205" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-90" value="192.168.0.1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1200" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-91" value="1.1.1.2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="255" y="1200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-92" value="1.1.1.3.0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="407.5" y="1190" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-93" value="1.1.1.5.5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="590" y="1190" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-94" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.iot_things_icons.icon34;" vertex="1" parent="1">
+          <mxGeometry x="94.29000000000002" y="1270" width="35.71" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-95" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;S 192.168.0.2:2210&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;D 1.1.1.30:1234&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1240" width="114.11" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-96" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="1300" as="sourcePoint" />
+            <mxPoint x="240" y="1300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-97" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.iot_things_icons.icon34;" vertex="1" parent="1">
+          <mxGeometry x="294.29" y="1270" width="35.71" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-98" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;S 1.1.1.2:8801&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;D 1.1.1.30:1234&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1240" width="114.11" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-99" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="1300" as="sourcePoint" />
+            <mxPoint x="400" y="1300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-100" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="1400" as="sourcePoint" />
+            <mxPoint x="230" y="1400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-101" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.iot_things_icons.icon34;" vertex="1" parent="1">
+          <mxGeometry x="292.23" y="1370" width="35.71" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-102" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;S 1.1.1.30:1234&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;D 1.1.1.2:8801&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="257.94" y="1340" width="114.11" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-103" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="1400" as="sourcePoint" />
+            <mxPoint x="30" y="1400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-104" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.iot_things_icons.icon34;" vertex="1" parent="1">
+          <mxGeometry x="112.23000000000002" y="1364.17" width="35.71" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-105" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;S 1.1.1.30:1234&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;D 192.168.0.2:2210&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="77.94" y="1334.17" width="114.11" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-106" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="1476" as="sourcePoint" />
+            <mxPoint x="230" y="1476" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-107" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.iot_things_icons.icon34;" vertex="1" parent="1">
+          <mxGeometry x="289.73" y="1445.83" width="35.71" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-108" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;S 1.1.1.30:4321&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;D 1.1.1.2:8801&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="255.44" y="1415.83" width="114.11" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-109" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="1476" as="sourcePoint" />
+            <mxPoint x="30" y="1476" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-110" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.iot_things_icons.icon34;" vertex="1" parent="1">
+          <mxGeometry x="109.73000000000002" y="1440" width="35.71" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-111" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;S 1.1.1.30:4321&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;D 192.168.0.2:2210&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="75.44" y="1410" width="114.11" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-112" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="567.5" y="1550" as="sourcePoint" />
+            <mxPoint x="230" y="1550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-113" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.iot_things_icons.icon34;" vertex="1" parent="1">
+          <mxGeometry x="390.29" y="1520" width="35.71" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-114" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;S 1.1.1.3.0:1234&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;D 1.1.1.2:8801&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="356" y="1490" width="114.11" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-118" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.polygon;polyCoords=[[0.25,0],[0.75,0],[1,0.25],[1,0.75],[0.75,1],[0.25,1],[0,0.75],[0,0.25]];polyline=0;" vertex="1" parent="1">
+          <mxGeometry x="95.09" y="1520" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-119" value="unrecheable" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="85.09" y="1540" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-120" value="внутренний адоес&lt;br&gt;192.168.0.2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="5.079999999999999" y="1810" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-121" value="внутренний порт&lt;br&gt;2216" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110.08" y="1810" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-122" value="внешний адрес&lt;br&gt;1.1.1.2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="215.08" y="1810" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-123" value="внешний порт&lt;br&gt;8801" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="312.58000000000004" y="1810" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-124" value="глобальный адрес&lt;br&gt;1.1.1.3.0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="395.37000000000006" y="1810" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-125" value="глобальный&amp;nbsp;порт&lt;br&gt;1234" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="505.08000000000004" y="1810" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-126" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.iot_things_icons.icon34;" vertex="1" parent="1">
+          <mxGeometry x="84.29000000000002" y="1630" width="35.71" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-127" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;S 192.168.0.2:2210&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;D 1.1.1.55:1234&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1600" width="114.11" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-128" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="1660" as="sourcePoint" />
+            <mxPoint x="240" y="1660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-131" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="567.5" y="1750" as="sourcePoint" />
+            <mxPoint x="230" y="1750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-132" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.iot_things_icons.icon34;" vertex="1" parent="1">
+          <mxGeometry x="390.29" y="1720" width="35.71" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-133" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;S 1.1.1.55:1234&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;D 1.1.1.2:8801&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="356" y="1690" width="114.11" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-137" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.iot_things_icons.icon34;" vertex="1" parent="1">
+          <mxGeometry x="291.34000000000003" y="1630" width="35.71" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-138" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;S 1.1.1.2:8801&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;D 1.1.1.55:1234&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="257.05" y="1600" width="114.11" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-139" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="237.05" y="1660" as="sourcePoint" />
+            <mxPoint x="570" y="1660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-140" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="237.5" y="1753" as="sourcePoint" />
+            <mxPoint x="27.5" y="1753" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-141" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.iot_things_icons.icon34;" vertex="1" parent="1">
+          <mxGeometry x="107.23000000000002" y="1717" width="35.71" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-142" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;S 1.1.1.55:1234&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;D 192.168.0.2:2210&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="72.94" y="1687" width="114.11" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-193" value="" style="points=[[0.13,0.02,0],[0.5,0,0],[0.87,0.02,0],[0.885,0.4,0],[0.985,0.985,0],[0.5,1,0],[0.015,0.985,0],[0.115,0.4,0]];verticalLabelPosition=bottom;sketch=0;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.laptop;fillColor=#005073;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="15" y="1970" width="50" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-194" value="" style="sketch=0;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0],[0.145,0.145,0],[0.8555,0.145,0],[0.855,0.8555,0],[0.145,0.855,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=router;fillColor=#FAFAFA;strokeColor=#005073;" vertex="1" parent="1">
+          <mxGeometry x="215" y="1955" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-195" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="35" y="2005" as="sourcePoint" />
+            <mxPoint x="35" y="2600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-196" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="239.58000000000007" y="2005" as="sourcePoint" />
+            <mxPoint x="235" y="2600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-197" value="private network" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1920" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-198" value="public network" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="455" y="1920" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-199" value="" style="points=[[0.13,0.02,0],[0.5,0,0],[0.87,0.02,0],[0.885,0.4,0],[0.985,0.985,0],[0.5,1,0],[0.015,0.985,0],[0.115,0.4,0]];verticalLabelPosition=bottom;sketch=0;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.laptop;fillColor=#005073;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380.71" y="1955" width="50" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-200" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="405.41999999999996" y="1990" as="sourcePoint" />
+            <mxPoint x="405" y="2600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-201" value="" style="points=[[0.13,0.02,0],[0.5,0,0],[0.87,0.02,0],[0.885,0.4,0],[0.985,0.985,0],[0.5,1,0],[0.015,0.985,0],[0.115,0.4,0]];verticalLabelPosition=bottom;sketch=0;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.laptop;fillColor=#005073;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="555" y="1955" width="50" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-202" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="575" y="1990" as="sourcePoint" />
+            <mxPoint x="575" y="2600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-203" value="192.168.0.2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="25" y="2005" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-204" value="192.168.0.1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="145" y="2000" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-205" value="1.1.1.2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="2000" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-206" value="1.1.1.3.0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="412.5" y="1990" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-207" value="1.1.1.5.5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="595" y="1990" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-208" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.iot_things_icons.icon34;" vertex="1" parent="1">
+          <mxGeometry x="99.29000000000002" y="2070" width="35.71" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-209" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;S 192.168.0.2:2210&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;D 1.1.1.30:1234&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="65" y="2040" width="114.11" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-210" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="35" y="2100" as="sourcePoint" />
+            <mxPoint x="245" y="2100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-211" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.iot_things_icons.icon34;" vertex="1" parent="1">
+          <mxGeometry x="299.29" y="2070" width="35.71" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-212" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;S 1.1.1.2:8801&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;D 1.1.1.30:1234&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="265" y="2040" width="114.11" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-213" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="245" y="2100" as="sourcePoint" />
+            <mxPoint x="405" y="2100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-214" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="405" y="2200" as="sourcePoint" />
+            <mxPoint x="235" y="2200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-215" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.iot_things_icons.icon34;" vertex="1" parent="1">
+          <mxGeometry x="297.23" y="2170" width="35.71" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-216" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;S 1.1.1.30:1234&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;D 1.1.1.2:8801&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="262.94" y="2140" width="114.11" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-217" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="245" y="2200" as="sourcePoint" />
+            <mxPoint x="35" y="2200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-218" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.iot_things_icons.icon34;" vertex="1" parent="1">
+          <mxGeometry x="117.23000000000002" y="2164.17" width="35.71" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-219" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;S 1.1.1.30:1234&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;D 192.168.0.2:2210&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="82.94" y="2134.17" width="114.11" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-220" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="405" y="2276" as="sourcePoint" />
+            <mxPoint x="235" y="2276" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-221" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.iot_things_icons.icon34;" vertex="1" parent="1">
+          <mxGeometry x="294.73" y="2245.83" width="35.71" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-222" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;S 1.1.1.30:4321&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;D 1.1.1.2:8801&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260.44" y="2215.83" width="114.11" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-223" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="245" y="2276" as="sourcePoint" />
+            <mxPoint x="35" y="2276" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-224" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.iot_things_icons.icon34;" vertex="1" parent="1">
+          <mxGeometry x="114.73000000000002" y="2240" width="35.71" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-225" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;S 1.1.1.30:4321&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;D 192.168.0.2:2210&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80.44" y="2210" width="114.11" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-231" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.iot_things_icons.icon34;" vertex="1" parent="1">
+          <mxGeometry x="86.79000000000002" y="2320" width="35.71" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-232" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;S 192.168.0.2:2210&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;D 1.1.1.55:1234&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="52.5" y="2290" width="114.11" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-233" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="32.5" y="2350" as="sourcePoint" />
+            <mxPoint x="242.5" y="2350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-234" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="2440" as="sourcePoint" />
+            <mxPoint x="232.5" y="2440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-235" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.iot_things_icons.icon34;" vertex="1" parent="1">
+          <mxGeometry x="392.79" y="2410" width="35.71" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-236" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;S 1.1.1.55:1234&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;D 1.1.1.2:8801&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="358.5" y="2380" width="114.11" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-237" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.iot_things_icons.icon34;" vertex="1" parent="1">
+          <mxGeometry x="293.84000000000003" y="2320" width="35.71" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-238" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;S 1.1.1.2:8801&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;D 1.1.1.55:1234&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="259.55" y="2290" width="114.11" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-239" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="239.55" y="2350" as="sourcePoint" />
+            <mxPoint x="572.5" y="2350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-240" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="2443" as="sourcePoint" />
+            <mxPoint x="30" y="2443" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-241" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.iot_things_icons.icon34;" vertex="1" parent="1">
+          <mxGeometry x="109.73000000000002" y="2407" width="35.71" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-242" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;S 1.1.1.55:1234&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;D 192.168.0.2:2210&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="75.44" y="2377" width="114.11" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-244" value="&lt;div style=&quot;border-color: var(--border-color); text-align: justify;&quot;&gt;Port Restricted Clone NAT&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: justify;&quot;&gt;Внутренний адрес проецируется на внешний адрес.любой пакет посланный с внутреннего адреса,&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;будет послан через&amp;nbsp;натирующие устройство (через подмену). внешний хост может послать пакет&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;на внутренний адрес через натирующее устройство только в том случае, если ранее внутренний адрес с этого порта слал пакет на внешний адрес&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="15" y="1870" width="640" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-245" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Symmetric NAT&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;Каждый пакет с определенного внутреннего адреса:порта на определенный внешний адрес:порт будет иметь после трансляции уникальный внешний адрес:порт. Соответственно пакет с одного и того же внутреннего адреса:порта, но посланный на другой внешний хост или порт после трансляции будет иметь другой внешний адрес:порт. Внешние хоста могут послать пакет, только на те адрес:порты, откуда они получали пакет.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="2690" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-246" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="569.86" y="2520" as="sourcePoint" />
+            <mxPoint x="232.36" y="2520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-247" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.iot_things_icons.icon34;" vertex="1" parent="1">
+          <mxGeometry x="392.65000000000003" y="2490" width="35.71" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-248" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;S 1.1.1.55:1234&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;D 1.1.1.2:1234&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="358.36" y="2460" width="114.11" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-249" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.polygon;polyCoords=[[0.25,0],[0.75,0],[1,0.25],[1,0.75],[0.75,1],[0.25,1],[0,0.75],[0,0.25]];polyline=0;" vertex="1" parent="1">
+          <mxGeometry x="96.79" y="2480" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-250" value="unrecheable" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="86.79" y="2500" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-252" value="" style="points=[[0.13,0.02,0],[0.5,0,0],[0.87,0.02,0],[0.885,0.4,0],[0.985,0.985,0],[0.5,1,0],[0.015,0.985,0],[0.115,0.4,0]];verticalLabelPosition=bottom;sketch=0;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.laptop;fillColor=#005073;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="2775" width="50" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-253" value="" style="sketch=0;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0],[0.145,0.145,0],[0.8555,0.145,0],[0.855,0.8555,0],[0.145,0.855,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=router;fillColor=#FAFAFA;strokeColor=#005073;" vertex="1" parent="1">
+          <mxGeometry x="220" y="2760" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-254" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="2810" as="sourcePoint" />
+            <mxPoint x="40" y="3500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-255" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="244.58000000000007" y="2810" as="sourcePoint" />
+            <mxPoint x="240" y="3500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-256" value="" style="points=[[0.13,0.02,0],[0.5,0,0],[0.87,0.02,0],[0.885,0.4,0],[0.985,0.985,0],[0.5,1,0],[0.015,0.985,0],[0.115,0.4,0]];verticalLabelPosition=bottom;sketch=0;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.laptop;fillColor=#005073;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="385.71" y="2760" width="50" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-257" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410.41999999999996" y="2795" as="sourcePoint" />
+            <mxPoint x="410" y="3405" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-258" value="" style="points=[[0.13,0.02,0],[0.5,0,0],[0.87,0.02,0],[0.885,0.4,0],[0.985,0.985,0],[0.5,1,0],[0.015,0.985,0],[0.115,0.4,0]];verticalLabelPosition=bottom;sketch=0;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.laptop;fillColor=#005073;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="560" y="2760" width="50" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-259" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="2795" as="sourcePoint" />
+            <mxPoint x="580" y="3500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-260" value="192.168.0.2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="2810" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-261" value="192.168.0.1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="2805" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-262" value="1.1.1.2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="265" y="2805" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-263" value="1.1.1.3.0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="417.5" y="2795" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-264" value="1.1.1.5.5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="600" y="2795" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-265" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.iot_things_icons.icon34;" vertex="1" parent="1">
+          <mxGeometry x="104.29000000000002" y="2875" width="35.71" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-266" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;S 192.168.0.2:2210&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;D 1.1.1.30:1234&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="2845" width="114.11" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-267" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="2905" as="sourcePoint" />
+            <mxPoint x="250" y="2905" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-268" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.iot_things_icons.icon34;" vertex="1" parent="1">
+          <mxGeometry x="304.29" y="2875" width="35.71" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-269" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;S 1.1.1.2:8801&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;D 1.1.1.30:1234&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="2845" width="114.11" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-270" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="2905" as="sourcePoint" />
+            <mxPoint x="410" y="2905" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-271" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="3005" as="sourcePoint" />
+            <mxPoint x="240" y="3005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-272" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.iot_things_icons.icon34;" vertex="1" parent="1">
+          <mxGeometry x="302.23" y="2975" width="35.71" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-273" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;S 1.1.1.30:1234&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;D 1.1.1.2:8801&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="267.94" y="2945" width="114.11" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-274" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="3005" as="sourcePoint" />
+            <mxPoint x="40" y="3005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-275" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.iot_things_icons.icon34;" vertex="1" parent="1">
+          <mxGeometry x="122.23000000000002" y="2969.17" width="35.71" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-276" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;S 1.1.1.30:1234&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;D 192.168.0.2:2210&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="87.94" y="2939.17" width="114.11" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-277" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="3081" as="sourcePoint" />
+            <mxPoint x="240" y="3081" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-278" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.iot_things_icons.icon34;" vertex="1" parent="1">
+          <mxGeometry x="299.73" y="3050.83" width="35.71" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-279" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;S 1.1.1.30:4321&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;D 1.1.1.2:5555&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="265.44" y="3020.83" width="114.11" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-283" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.iot_things_icons.icon34;" vertex="1" parent="1">
+          <mxGeometry x="91.25000000000003" y="3250" width="35.71" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-284" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;S 192.168.0.2:2210&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;D 1.1.1.55:1234&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="56.96" y="3220" width="114.11" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-285" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="36.96" y="3280" as="sourcePoint" />
+            <mxPoint x="246.95999999999998" y="3280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-286" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="574.46" y="3370" as="sourcePoint" />
+            <mxPoint x="236.96" y="3370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-287" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.iot_things_icons.icon34;" vertex="1" parent="1">
+          <mxGeometry x="397.25" y="3340" width="35.71" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-288" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;S 1.1.1.55:1234&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;D 1.1.1.2:8801&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="362.96" y="3310" width="114.11" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-289" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.iot_things_icons.icon34;" vertex="1" parent="1">
+          <mxGeometry x="298.3" y="3250" width="35.71" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-290" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;S 1.1.1.2:8801&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;D 1.1.1.55:1234&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="264.01" y="3220" width="114.11" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-291" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="244.01" y="3280" as="sourcePoint" />
+            <mxPoint x="576.96" y="3280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-292" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="244.45999999999998" y="3373" as="sourcePoint" />
+            <mxPoint x="34.46" y="3373" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-293" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.iot_things_icons.icon34;" vertex="1" parent="1">
+          <mxGeometry x="110.70000000000002" y="3340" width="35.71" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-294" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;S 1.1.1.55:1234&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;D 192.168.0.2:2210&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="79.9" y="3307" width="114.11" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-295" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="576.98" y="3170" as="sourcePoint" />
+            <mxPoint x="239.48000000000002" y="3170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-296" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.iot_things_icons.icon34;" vertex="1" parent="1">
+          <mxGeometry x="399.77000000000004" y="3140" width="35.71" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-297" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;S 1.1.1.55:1234&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;D 1.1.1.2:1234&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="365.48" y="3110" width="114.11" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-298" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.polygon;polyCoords=[[0.25,0],[0.75,0],[1,0.25],[1,0.75],[0.75,1],[0.25,1],[0,0.75],[0,0.25]];polyline=0;" vertex="1" parent="1">
+          <mxGeometry x="103.91000000000001" y="3130" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-299" value="unrecheable" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="93.91000000000001" y="3150" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-300" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.polygon;polyCoords=[[0.25,0],[0.75,0],[1,0.25],[1,0.75],[0.75,1],[0.25,1],[0,0.75],[0,0.25]];polyline=0;" vertex="1" parent="1">
+          <mxGeometry x="101.79" y="3020.83" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-301" value="unrecheable" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="91.79" y="3040.83" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-309" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="579.86" y="3470" as="sourcePoint" />
+            <mxPoint x="242.36" y="3470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-310" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.iot_things_icons.icon34;" vertex="1" parent="1">
+          <mxGeometry x="402.65000000000003" y="3440" width="35.71" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-311" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;S 1.1.1.55:1234&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;D 1.1.1.2:1234&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="368.36" y="3410" width="114.11" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-314" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.polygon;polyCoords=[[0.25,0],[0.75,0],[1,0.25],[1,0.75],[0.75,1],[0.25,1],[0,0.75],[0,0.25]];polyline=0;" vertex="1" parent="1">
+          <mxGeometry x="96.79" y="3430" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_0nBsn57_cL_QnxqTh-315" value="unrecheable" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="86.79" y="3450" width="90" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
